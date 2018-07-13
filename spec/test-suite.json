@@ -1,0 +1,71 @@
+{
+    "suite":
+    {
+        "zmanim":
+        [
+            {
+                "setup":
+                {
+                    "calculator":
+                    {
+                        "name": "SunTimes",
+                        "zmanimInformation":
+                        {
+                            "name": "",
+                            "url": ""
+                        },
+                        "information":
+                        {
+                            "name": "US Naval Observatory's Almanac for Computer algorithm",
+                            "url": "http://aa.usno.navy.mil/publications/docs/asa.php"
+                        }
+                    },
+                    "date": "2010-04-02",
+                    "location":
+                    {
+                        "name": "Lakewood, NJ",
+                        "lat": 40.09596,
+                        "long": -74.22213,
+                        "elevation": 0,
+                        "timeZone":
+                        {
+                            "offset": -5,
+                            "zoneInfoName": "America/New_York"
+                        }
+                    }
+                },
+                "tests":
+                [
+                    {
+                        "method": "sunset",
+                        "description": "Gets the exact sunset time",
+                        "extra":
+                        {
+                            "edgeCase": false,
+                            "information": ""
+                        },
+                        "expected":
+                        {
+                            "utc": "2010-04-02T12:22:3:710Z",
+                            "local": "2010-04-02T19:22:3:710-05:00"
+                        }
+                    },
+                    {
+                        "method": "sunrise",
+                        "description": "Gets the exact sunrise time",
+                        "extra":
+                        {
+                            "edgeCase": false,
+                            "information": ""
+                        },
+                        "expected":
+                        {
+                            "utc": "2010-04-01T23:39:41:832Z",
+                            "local": "2010-04-02T06:39:41:832-05:00"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
