@@ -11,8 +11,8 @@
                         "name": "SunTimes",
                         "zmanimInformation":
                         {
-                            "name": "",
-                            "url": ""
+                            "name": "The SunTimes calculator based on the USNO algorithm.",
+                            "url": "https://github.com/KosherJava/zmanim/blob/master/src/net/sourceforge/zmanim/util/SunTimesCalculator.java"
                         },
                         "information":
                         {
